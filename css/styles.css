@@ -8,3 +8,125 @@
 html, body{
 	height: 100%;
 }
+
+.wrapper {
+	height: 100%;
+	padding: 10px;
+}
+
+.inner-wrapper {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	flex-direction: column;
+}
+
+
+
+.header {
+	flex: 0 1 14.5%;
+}
+
+.innre-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	font-size: 50px;
+	color: blue;
+	height: 100%;
+}
+
+
+
+
+.main {
+	flex: 0 1 84.5%;
+}
+
+.inner-main {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+
+
+
+
+.leftSide {
+	flex: 0 1 49.7%;
+}
+
+.inner-leftSide {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.inner-leftSide_sideBar {
+	flex: 0 1 49.5%;
+	border: 1px solid black;
+}
+
+
+
+
+
+
+.rightSide {
+	flex: 0 1 49.7%;
+}
+
+.inner-rightSide {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	flex-direction: column;
+}
+
+
+
+
+
+.upSide {
+	flex: 0 1 69.5%;
+}
+
+.inner-upSide {
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+}
+
+.inner-upSide_sideBar {
+	flex: 0 1 32.5%;
+	border: 1px solid black;
+}
+
+.inner-sideBar {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	color: blue;
+}
+
+
+
+
+
+
+.downSide {
+	flex: 0 1 29.5%;
+}
+
+.inner-downSide {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	color: blue;
+	border: 1px solid black;
+}
